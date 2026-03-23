@@ -4,6 +4,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Account - FurryNeeds</title>
+    <link rel="stylesheet" href="css/header.css">
     <style>
         * {
             margin: 0;
@@ -13,58 +14,6 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
             background: #f8f9fa;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        /* Header */
-        header {
-            background: white;
-            border-bottom: 1px solid #e0e0e0;
-        }
-        .top-bar {
-            background: #FDCA5D;
-            color: white;
-            padding: 8px 0;
-            text-align: center;
-            font-size: 14px;
-        }
-        .header-main {
-            padding: 20px 0;
-        }
-        .header-content {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-            color: #FDCA5D;
-        }
-        .header-actions {
-            display: flex;
-            gap: 20px;
-            align-items: center;
-        }
-        .icon-btn {
-            background: none;
-            border: none;
-            font-size: 24px;
-            cursor: pointer;
-            position: relative;
-        }
-        .badge {
-            position: absolute;
-            top: -5px;
-            right: -5px;
-            background: #ff4444;
-            color: white;
-            font-size: 10px;
-            padding: 2px 6px;
-            border-radius: 10px;
         }
         /* Account Content */
         .account-header {
@@ -368,13 +317,10 @@
 <body>
     <!-- Header -->
     <header>
-        <div class="top-bar">
-            🎉 Free Shipping on Orders Over $50 | 30-Day Returns
-        </div>
         <div class="header-main">
             <div class="container">
                 <div class="header-content">
-                    <div class="logo">🐾 FurryNeeds</div>
+                    <div class="logo">FurryNeeds</div>
                     <div class="header-actions">
                         <!--<button class="icon-btn" fdprocessedid="65ewr">❤️</button>-->
                       <!--  <button class="icon-btn" onclick="window.location.href='cart.html';" fdprocessedid="d5cnv"> -->
@@ -408,14 +354,14 @@
             <!-- Sidebar -->
             <aside class="sidebar">
                 <ul class="sidebar-menu">
-                   <li><a href="#" class="active" onclick="showSection('dashboard')"><span class="menu-icon">📊</span> Dashboard</a></li>
-<li><a href="#" onclick="showSection('orders')"><span class="menu-icon">📦</span> My Orders</a></li>
-<li><a href="#" onclick="showSection('wishlist')"><span class="menu-icon">❤️</span> Wishlist</a></li>
-<li><a href="#" onclick="showSection('pets')"><span class="menu-icon">🐶</span> My Pets</a></li>
-<li><a href="#" onclick="showSection('addresses')"><span class="menu-icon">📍</span> Addresses</a></li>
-<li><a href="#" onclick="showSection('payment')"><span class="menu-icon">💳</span> Payment Methods</a></li>
-<li><a href="#" onclick="showSection('settings')"><span class="menu-icon">⚙️</span> Settings</a></li>
-<li><a href="login.html"><span class="menu-icon">🚪</span> Logout</a></li>
+                   <li><a href="#" class="active" onclick="showSection('dashboard')">Dashboard</a></li>
+                    <li><a href="#" onclick="showSection('orders')">My Orders</a></li>
+                    <!--<li><a href="#" onclick="showSection('wishlist')">Wishlist</a></li>
+                    <li><a href="#" onclick="showSection('pets')">My Pets</a></li>-->
+                    <li><a href="#" onclick="showSection('addresses')">Addresses</a></li>
+                    <li><a href="#" onclick="showSection('payment')">Payment Methods</a></li>
+                    <li><a href="#" onclick="showSection('settings')">Settings</a></li>
+                    <li><a href="login.html">Logout</a></li>
                 </ul>
             </aside>
 
